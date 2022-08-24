@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* 
+
+*/
+
+:root{
+    --bright_Orange: hsl(31, 77%, 52%);
+    --dark_Cyan: hsl(184, 100%, 22%);
+    --very_Dark_Cyan: hsl(179, 100%, 13%);
+    /*paragraphs*/
+    --transparent_White: hsla(0, 0%, 100%, 0.75);
+    /* background, headings, buttons */
+    --very_Light_Gray:  hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;   /*es para que todo se ajuste a su contenedor padre*/
+}
+
+.body{
+    font-size: 15px;   /*pasar a em maybe?*/
+    background-color: var(--very_Light_Gray);
+    
+}
+
+.main-container{ 
+    width: 325px;
+    margin: 87px auto 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+article{
+    width: 100%;
+    min-height: 440px;
+    padding: 50px;
+}
+
+.sedans{
+    background-color: var(--bright_Orange);
+}
+
+.suvs{
+    background-color: var(--dark_Cyan);
+}
+
+.luxury{
+    background-color: var(--very_Dark_Cyan);
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: var(--very_Light_Gray);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.4em;
+    margin-bottom: 25px;
+}
+
+p{
+    color: var(--transparent_White);
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+button{
+    border-style: none;
+    border-radius: 45px;  
+    width: 150px;
+    height: 50px;
+    background-color: var(--very_Light_Gray);
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+#btn-sedans{
+    color: var(--bright_Orange);
+}
+#btn-sedans:hover{
+    color: var(--very_Light_Gray);
+    background-color: var(--bright_Orange);
+    border: solid 2px var(--very_Light_Gray);
+}
+#btn-suvs{
+    color: var(--dark_Cyan);
+}
+#btn-suvs:hover{
+    color: var(--very_Light_Gray);
+    background-color: var(--dark_Cyan);
+    border: solid 2px var(--very_Light_Gray);
+}
+#btn-luxury{
+    color: var(--very_Dark_Cyan);
+}
+#btn-luxury:hover{
+    color: var(--very_Light_Gray);
+    background-color: var(--very_Dark_Cyan);
+    border: solid 2px var(--very_Light_Gray);
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:944px) {
+    .main-container{
+        width: 924px;
+        display: flex;
+        margin-top: 170px;
+    }
+    article{
+        height: 500px;
+    }
+    p{
+        margin-bottom: 80px;
+    }
+}
