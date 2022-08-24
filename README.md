@@ -9,8 +9,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+<img src="./screenshot.jpg" alt="">  
+<img src="./screenshot-mobile.jpg" alt="">    
 
 ### Built with
 
