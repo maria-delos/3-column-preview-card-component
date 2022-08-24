@@ -9,8 +9,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 
-<img src="./screenshot.jpg" alt="">  
-<img src="./screenshot-mobile.jpg" alt="">    
+<img src="images/screenshot.jpg" alt="">  
+<img src="images/screenshot-mobile.jpg" alt="">    
 
 ### Built with
 
